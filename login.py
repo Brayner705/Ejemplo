@@ -7,7 +7,7 @@ def menu_pantalla(ventana_cerrada= Tk()):
     ventana_cerrada.destroy()
     global pantalla
     pantalla = Tk()
-    pantalla.geometry("400x250")
+    pantalla.geometry("500x250")
     pantalla.title("Bienvenido")
     pantalla.iconbitmap("icono.ico")
 
